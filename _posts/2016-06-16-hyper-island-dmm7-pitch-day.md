@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “Hyper Island DMM7 Pitch Day“
+title:  Hyper Island DMM7 Pitch Day
 date:   2016-06-16 20:58:31 +0100
 categories: work
 tags: hyper island, DMM7, mentoring, coaching
