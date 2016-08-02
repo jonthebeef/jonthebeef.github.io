@@ -2,12 +2,10 @@
 layout: post
 title:  How to prototype a Messenger bot.
 date:   2016-07-28 14:13:00 +0100
-excerpt: What text editor to use? Sass or plain old CSS? What on earth is Compass? Command line? I'm not touching that. Sound like you? Welcome, I was once like you and this is the guide I wish someone had given me.
+excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
 categories: work
 tags: facebook, messenger, prototype, sketch, keynote
 ---
-Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
-
 Recently, I was asked by my pals at TalkBe to help them prototype an example of how a bot could work for a brand they work with in Facebook Messenger. There's a few UI kits kicking around, and so they thought I'd be able to use one to showcase a conversation a typical user could have with the bot, and specific commercial actions that could be taken.
 
 Here's the problem; How can we showcase this conversation in the most easy to understand way? As this was essentially a pitch piece, how could we impress the client, while getting around the typical build time issues, and then onward distribution so the client could see the idea we've had?
