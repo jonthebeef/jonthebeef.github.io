@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $yellow-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -181,12 +181,17 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding-bottom: $spacing-unit;
+        border-bottom: 1px solid $grey-color-light;
+
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    float: right;
+    font-size: 24px;
 }
 
 .post-link {

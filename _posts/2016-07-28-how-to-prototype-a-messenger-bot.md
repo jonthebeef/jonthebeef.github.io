@@ -2,6 +2,7 @@
 layout: post
 title:  How to prototype a Messenger bot.
 date:   2016-07-28 14:13:00 +0100
+excerpt: What text editor to use? Sass or plain old CSS? What on earth is Compass? Command line? I'm not touching that. Sound like you? Welcome, I was once like you and this is the guide I wish someone had given me.
 categories: work
 tags: facebook, messenger, prototype, sketch, keynote
 ---
