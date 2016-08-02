@@ -1,7 +1,5 @@
 <header class="site-header">
 
-  <div class="wrapper">
-
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -13,6 +11,8 @@
         </svg>
       </a>
 
+
+  <div class="wrapper">
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
@@ -21,7 +21,9 @@
         {% endfor %}
       </div>
     </nav>
-
+    <!-- <div class="statement">
+      I’m Jon, a Product Strategist &amp; Designer, and I work with people like you to make what feels like the impossible, real. I create actionable strategies that address user needs and business KPIs, and design sumptuous interfaces for desktop and mobile all with a belief and focus in simplicity.
+      </div> -->
   </div>
 
 </header>
