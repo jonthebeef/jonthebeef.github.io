@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to prototype a Messenger bot.
+title:  How to prototype a Facebook Messenger bot with Keynote.
 date:   2016-07-28 14:13:00 +0100
 excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
 categories: work
@@ -23,11 +23,8 @@ This might be easy for some of you, but the essential bit is to put yourself int
 Let's look at the different interface elements we’ll be using:
 
 - *Comments* behave just as you think they will, because they're the speech bubbles you see between yourself and the bot. They display simple content, without any embellishments, save for URLs. Be aware of their spacing, and how they change when comments are delivered in fast succession.
-
 - *Structured Messages* can contain an image, title, description and calls to action. They might also contain a URL, but the key utility of this message type is to give call backs (CTA buttons) that the user can select to change the onward journey of the experience. They can also be used in a carousel.
-
 - *Quick replies* appear above the message input, and are designed to be fast answers a user can select without having to type. While these can be generated through machine learning and be relevant to content, they can also be hard curated based on the expected reply instance.
-
 - *Persistent menu* appears when the burger icon is tapped at the side of the chat input, and gives the option to launch a different function of the bot. So for instance, users can select "help" or "top sellers" as a fast action from the menu.
 
 ### Prototype!
@@ -35,12 +32,12 @@ Let's look at the different interface elements we’ll be using:
 We’ll assume here that you’re familiar with editing template documents in Sketch. After all, there’s thousands of them out there.
 
 - [*Bots*](https://bots.mockuuups.com) came out not long after Facebook announced the new APIs for Messenger.
-
 - [*Sketch App Sources*](http://www.sketchappsources.com/free-source/1952-facebook-messenger-ui-kit-chatbots-sketch-freebie-resource.html) has this rather good mockup which has some good UI examples and demonstration of how the flow can work.
-
 - [*Facebook*](http://facebook.design/ios9) have this rather excellent iOS9 UI kit, which contains some bits you might find useful later on. And if you're reading this in a post iOS 10 world, they've probably got a kit for that too.
 
 We’re going to focus on animating assets in Keynote, to demonstrate what a bot experience would be like. In the real world, for your own conversations, you might edit the assets in Sketch and copy them in to Keynote for prototyping. Or redraw the assets in Keynote, so you can edit them there. I’ll leave that one to you though!
+
+<iframe width="100%" height="484px" src="https://www.youtube.com/embed/Wl69tkhvgtk" frameborder="0" allowfullscreen></iframe>
 
 #### Tutorial Assets
 
@@ -50,7 +47,7 @@ I’ve also included the completed Sketch file you can play with as you please.
 
 #### Step 1
 
-Open **[fb messenger iphone template](https://www.dropbox.com/s/e5zyfe4v3s2xrj9/fb%20messenger%20iphone%20template.kth?dl=0)** from the Keynote folder. Select “New document” when prompted.
+Open [fb messenger iphone template](https://www.dropbox.com/s/e5zyfe4v3s2xrj9/fb%20messenger%20iphone%20template.kth?dl=0) from the Keynote folder. Select “New document” when prompted.
 
 Go to **Keynote > Preferences > Rulers**.
 
@@ -60,7 +57,7 @@ Select “Show guides at object edges”. The template provided has the necessar
 
 #### Step 2
 
-Open the assets folder, and drag in **[iOS - Nav Bar.png](https://www.dropbox.com/s/qg4mgppto568eej/iOS%20-%20Nav%20Bar.png?dl=0)**, **[iOS - Account Title.png](https://www.dropbox.com/s/l73vmpdcgajvo02/iOS%20-%20Account%20Title.png?dl=0)**, and **[iOS - Keyboard.png](https://www.dropbox.com/s/i7zqcg95nifopqe/iOS%20-%20Keyboard.png?dl=0)**.
+Open the assets folder, and drag in [iOS - Nav Bar.png](https://www.dropbox.com/s/qg4mgppto568eej/iOS%20-%20Nav%20Bar.png?dl=0), [iOS - Account Title.png](https://www.dropbox.com/s/l73vmpdcgajvo02/iOS%20-%20Account%20Title.png?dl=0), and [iOS - Keyboard.png](https://www.dropbox.com/s/i7zqcg95nifopqe/iOS%20-%20Keyboard.png?dl=0).
 
 Arrange the nav bar so it’s at the top of the screen, with the account title immediately below it.
 
@@ -70,9 +67,9 @@ Position the Keyboard so it’s mainly off the bottom of the slide, leaving only
 
 #### Step 3
 
-Drag in **[01.png](https://www.dropbox.com/s/eev8bhm4d04bmts/01.png?dl=0)** from the assets, and position towards the top top left, below the account title.
+Drag in [01.png](https://www.dropbox.com/s/eev8bhm4d04bmts/01.png?dl=0) from the assets, and position towards the top top left, below the account title.
 
-Now drag in **[quick reply 1.png](https://www.dropbox.com/s/emtrmw7g34me6ah/quick%20reply%201.png?dl=0)** and align it to the further most left guide. Position it behind the keyboard by sending the quick reply to back.
+Now drag in [quick reply 1.png](https://www.dropbox.com/s/emtrmw7g34me6ah/quick%20reply%201.png?dl=0) and align it to the further most left guide. Position it behind the keyboard by sending the quick reply to back.
 
 ![](/images/fbprototype/step_3.png)
 
@@ -96,7 +93,7 @@ Nice work, you should have simulated quick replies showing for a user to select 
 
 Duplicate slide 2.
 
-In the new slide, replace quick reply 1 by dragging in **[quick reply 2.png](https://www.dropbox.com/s/0t8ipxjg6urw9da/quick%20reply%202.png?dl=0)** from the assets, and deleting it.
+In the new slide, replace quick reply 1 by dragging in [quick reply 2.png](https://www.dropbox.com/s/0t8ipxjg6urw9da/quick%20reply%202.png?dl=0) from the assets, and deleting it.
 
 Click on slide 2, and change the animation from “Magic Move” to “None”.
 
@@ -112,15 +109,15 @@ Duplicate slide 3, which should still have the Magic Move transition applied.
 
 Move quick reply 2 so it’s behind the keyboard.
 
-Now duplicate slide 4, and drag in **[02.png](https://www.dropbox.com/s/1dgezkhwtirz1hz/02.png?dl=0)** from the assets. Position it to the furthermost right hand guide, about 20 pixels below the first message.
+Now duplicate slide 4, and drag in [02.png](https://www.dropbox.com/s/1dgezkhwtirz1hz/02.png?dl=0) from the assets. Position it to the furthermost right hand guide, about 20 pixels below the first message.
 
-PRO TIP: Hold down shift and then press the direction you want to move in. Moves the element 10 pixels at a time.
+>PRO TIP: Hold down shift and then press the direction you want to move in. Moves the element 10 pixels at a time.
 
 Playing your presentation back now, will show the quick replies move behind the keyboard, and the selected quick reply be added to the conversation.
 
 ![](/images/fbprototype/step_6.gif)
 
-Duplicate slide 5, and add **[03.png](https://www.dropbox.com/s/er0v8d2pj7v7ob0/03.png?dl=0)** in on the left hand side, about 20 pixels below the previous comment.
+Duplicate slide 5, and add [03.png](https://www.dropbox.com/s/er0v8d2pj7v7ob0/03.png?dl=0) in on the left hand side, about 20 pixels below the previous comment.
 
 Here’s what you should be seeing.
 
@@ -132,7 +129,7 @@ We now need to move everything up, so we can make room for the next element.
 
 Click on the nav bar and bring it to front, then duplicate slide 6.
 
-Drag in **[structured message carousel.png](https://www.dropbox.com/s/f877kzt6ic3sp2e/structured%20message%20carousel.png?dl=0)**. Be warned now, Keynote does something funky. Whenever you drag in an image, if it’s larger than the slide, it makes it smaller to fit. Nice if you’re designing pitch decks, but rubbish for prototypes. Here’s the fix.
+Drag in [structured message carousel.png](https://www.dropbox.com/s/f877kzt6ic3sp2e/structured%20message%20carousel.png?dl=0). Be warned now, Keynote does something funky. Whenever you drag in an image, if it’s larger than the slide, it makes it smaller to fit. Nice if you’re designing pitch decks, but rubbish for prototypes. Here’s the fix.
 
 With the carousel element selected, move into the inspector, and click “Arrange”. Then, click the button marked “Original Size”. The image should be now at it’s correct size.
 
@@ -156,7 +153,7 @@ Press play.
 
 Let’s simulate a user pressing “Listen on Spotify”, and being taken into a webview.
 
-Duplicate slide 8, then insert a new blank slide before it. Drag in **[webview.png](https://www.dropbox.com/s/2zyiwdhrt121uvq/webview.png?dl=0)**. Your slides should now look like this.
+Duplicate slide 8, then insert a new blank slide before it. Drag in [webview.png](https://www.dropbox.com/s/2zyiwdhrt121uvq/webview.png?dl=0). Your slides should now look like this.
 
 ![](/images/fbprototype/step_8_1.png)
 
@@ -174,7 +171,7 @@ You should be left with this.
 
 We’re now into the final straight, and by now, you should have a pretty good handle on how Magic Move works, and what the outputs look like.
 
-Drag **[Menu 1.png](https://www.dropbox.com/s/uy2r1ctz84td6te/Menu%201.png?dl=0)** into slide 10, and position it in front of the keyboard, but off the bottom of the slide.
+Drag [Menu 1.png](https://www.dropbox.com/s/uy2r1ctz84td6te/Menu%201.png?dl=0) into slide 10, and position it in front of the keyboard, but off the bottom of the slide.
 
 ![](/images/fbprototype/step_9_1.png)
 
@@ -188,13 +185,13 @@ Click on the menu, and bring it to front. Now, drag it upward, so the bottom edg
 
 ![](/images/fbprototype/step_9_2.png)
 
-Duplicate slide 11, and drag in **[Menu 2.png](https://www.dropbox.com/s/elafslqcuvlk2ef/Menu%202.png?dl=0)**. Delete the previous menu, and position in it’s place.
+Duplicate slide 11, and drag in [Menu 2.png](https://www.dropbox.com/s/elafslqcuvlk2ef/Menu%202.png?dl=0). Delete the previous menu, and position in it’s place.
 
 Click on slide 11, click “Animate”, then change Magic Move to “None”.
 
 Duplicate slide 12, delete the opaque box, and move menu 2 downward and off the slide. Duplicate this slide.
 
-Drag in **[04.png](https://www.dropbox.com/s/n84dhics04ysx44/04.png?dl=0)** and align to the right and at the bottom edge of the carousel. Now, select the elements above, and move them upward to accommodate the new message.
+Drag in [04.png](https://www.dropbox.com/s/n84dhics04ysx44/04.png?dl=0) and align to the right and at the bottom edge of the carousel. Now, select the elements above, and move them upward to accommodate the new message.
 
 It should look like this.
 
@@ -202,9 +199,9 @@ It should look like this.
 
 #### Step 10
 
-Now, it’s the last two interactions before we can head to the grand output. Duplicate slide 14, drag in **[05.png](https://www.dropbox.com/s/mulbnqm6m8z0om2/05.png?dl=0)**, position on the corresponding side, and shift the other content up to accommodate it.
+Now, it’s the last two interactions before we can head to the grand output. Duplicate slide 14, drag in [05.png](https://www.dropbox.com/s/mulbnqm6m8z0om2/05.png?dl=0), position on the corresponding side, and shift the other content up to accommodate it.
 
-Repeat the process for **[06.png](https://www.dropbox.com/s/p5nq0smhxhay1z1/06.png?dl=0)**.
+Repeat the process for [06.png](https://www.dropbox.com/s/p5nq0smhxhay1z1/06.png?dl=0).
 
 You’ll have this.
 
@@ -221,7 +218,7 @@ So now, if you play the entire deck back through, you should have prototyped the
 
 Once you’re happy with the flow, you might decide to output it in a form that anyone can see it. Let’s export to video.
 
-Go to **File > Export > Quicktime**.
+Go to File > Export > Quicktime.
 
 ![](/images/fbprototype/final_1.png)
 
