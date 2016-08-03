@@ -10,7 +10,7 @@ Recently, I was asked by my pals at [TalkBe](http://talkbe.com) to help them pro
 
 Here's the problem; How can we showcase this conversation in the most easy to understand way? As this was essentially a pitch piece, how could we impress the client, while getting around the typical build time issues, and then put it into the best format so the client could see the idea we've had?
 
-## The conversation is the experience
+### The conversation is the experience
 
 This wasn't a typical prototype or UX piece. The task here was to establish a conversational flow, and then bring it to life using many pieces of the preset UI Messenger already employs. Yes, we could attempt to own some visual flair with the content we would be presenting, but the main parts of the overall experience is how the user can develop a relationship with the bot, and deal with many of their common interactions with the brand through the interface.
 
@@ -30,7 +30,7 @@ Let's look at the different interface elements we’ll be using:
 
 - *Persistent menu* appears when the burger icon is tapped at the side of the chat input, and gives the option to launch a different function of the bot. So for instance, users can select "help" or "top sellers" as a fast action from the menu.
 
-## Prototype!
+### Prototype!
 
 We’ll assume here that you’re familiar with editing template documents in Sketch. After all, there’s thousands of them out there.
 
@@ -42,13 +42,13 @@ We’ll assume here that you’re familiar with editing template documents in Sk
 
 We’re going to focus on animating assets in Keynote, to demonstrate what a bot experience would be like. In the real world, for your own conversations, you might edit the assets in Sketch and copy them in to Keynote for prototyping. Or redraw the assets in Keynote, so you can edit them there. I’ll leave that one to you though!
 
-## Tutorial Assets
+#### Tutorial Assets
 
 - [Project Assets](https://www.dropbox.com/sh/kd6gttcgx1xgoq1/AACwFENGP9l17GebdbrRMbaOa?dl=0)
 
 I’ve also included the completed Sketch file you can play with as you please.
 
-**Step 1**
+#### Step 1
 
 Open **[fb messenger iphone template](https://www.dropbox.com/s/e5zyfe4v3s2xrj9/fb%20messenger%20iphone%20template.kth?dl=0)** from the Keynote folder. Select “New document” when prompted.
 
@@ -58,7 +58,7 @@ Select “Show guides at object edges”. The template provided has the necessar
 
 ![](/images/fbprototype/step_1.png)
 
-**Step 2**
+#### Step 2
 
 Open the assets folder, and drag in **[iOS - Nav Bar.png](https://www.dropbox.com/s/qg4mgppto568eej/iOS%20-%20Nav%20Bar.png?dl=0)**, **[iOS - Account Title.png](https://www.dropbox.com/s/l73vmpdcgajvo02/iOS%20-%20Account%20Title.png?dl=0)**, and **[iOS - Keyboard.png](https://www.dropbox.com/s/i7zqcg95nifopqe/iOS%20-%20Keyboard.png?dl=0)**.
 
@@ -68,7 +68,7 @@ Position the Keyboard so it’s mainly off the bottom of the slide, leaving only
 
 ![](/images/fbprototype/step_2.png)
 
-**Step 3**
+#### Step 3
 
 Drag in **[01.png](https://www.dropbox.com/s/eev8bhm4d04bmts/01.png?dl=0)** from the assets, and position towards the top top left, below the account title.
 
@@ -76,7 +76,7 @@ Now drag in **[quick reply 1.png](https://www.dropbox.com/s/emtrmw7g34me6ah/quic
 
 ![](/images/fbprototype/step_3.png)
 
-**Step 4**
+#### Step 4
 
 Select the slide, and click “Animate” from above the Inspector. Click “Add an effect”, and select “Magic Move”. Change the duration to 0.3, and ensure “Fade Unmatched Objects” is selected.
 
@@ -90,7 +90,7 @@ Go back to the first slide, and click “Play”. You should have something like
 
 ![](/images/fbprototype/step_4_2.gif)
 
-**Step 5**
+#### Step 5
 
 Nice work, you should have simulated quick replies showing for a user to select to continue. Let’s now simulate the user selecting a reply, and adding it to the conversation. This is because Magic Move transitioned the position of quick reply 1 from it’s place on the first slide to the second slide.
 
@@ -106,7 +106,7 @@ Press play. Your animation should look like this now.
 
 ![](/images/fbprototype/step_5.gif)
 
-**Step 6**
+#### Step 6
 
 Duplicate slide 3, which should still have the Magic Move transition applied.
 
@@ -126,7 +126,7 @@ Here’s what you should be seeing.
 
 ![](/images/fbprototype/step_6_1.gif)
 
-**Step 7**
+#### Step 7
 
 We now need to move everything up, so we can make room for the next element.
 
@@ -152,7 +152,7 @@ Press play.
 
 ![](/images/fbprototype/step_7_4.gif)
 
-**Step 8**
+#### Step 8
 
 Let’s simulate a user pressing “Listen on Spotify”, and being taken into a webview.
 
@@ -170,7 +170,7 @@ You should be left with this.
 
 ![](/images/fbprototype/step_8_3.gif)
 
-**Step 9**
+#### Step 9
 
 We’re now into the final straight, and by now, you should have a pretty good handle on how Magic Move works, and what the outputs look like.
 
@@ -200,7 +200,7 @@ It should look like this.
 
 ![](/images/fbprototype/step_9_3.gif)
 
-**Step 10**
+#### Step 10
 
 Now, it’s the last two interactions before we can head to the grand output. Duplicate slide 14, drag in **[05.png](https://www.dropbox.com/s/mulbnqm6m8z0om2/05.png?dl=0)**, position on the corresponding side, and shift the other content up to accommodate it.
 
@@ -210,7 +210,7 @@ You’ll have this.
 
 ![](/images/fbprototype/step_10_1.gif)
 
-**Final Step**
+#### Final Step
 
 So now, if you play the entire deck back through, you should have prototyped the complete flow. We have missed out a couple of tiny things along the way, so why not try:
 
@@ -233,10 +233,10 @@ Keynote can also handle video placed in a document, so you can then include your
 
 You might also want to put the video into some form of post production, like iMovie or After Effects to embellish it somewhat. That’s completely up to you.
 
-**Conclusion**
+#### Conclusion
 
 And that’s it, you’ve now seen how easy it is to prototype an instant messaging flow in Keynote. Over time, this will become more important as either your company or agency are looking to demonstrate how a conversational flow can work for different interactions.
 
 Apple are due to release iOS 10 in coming months, and with that, brings new messaging functionality. Expect to see the UI elements appear in kits shortly afterwards, and then, prototype your next sticker app or ride hailing integration in the same way. Also, here’s a UI Kit for [WeChat](http://www.sketchappsources.com/free-source/attachment-1933-wechat-ui-kit-sketch-freebie-resource-img1.html), and here’s one that could [help you design your own messaging app](https://layer.com/messaging-design-kit).
 
-Go and make stuff. And let me know how you get on. 
+Go and make stuff. And let me know how you get on.
