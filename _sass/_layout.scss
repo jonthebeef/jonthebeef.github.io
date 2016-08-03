@@ -197,7 +197,7 @@
     font-size: 24px;
     font-weight: 300;
     color: $grey-color;
-    float: right;
+    // float: right;
 
 }
 
@@ -236,15 +236,17 @@
 
     // padding: 40px;
 
-    // p {
-    //
-    //   margin: 0 0 30px 130px;
-    //
-    // }
+    p {
+
+      margin: 0 0 $spacing-unit 0;
+
+    }
 
     li {
         margin-bottom: $spacing-unit / 2;
-
+        > :last-child {
+            margin-bottom: $spacing-unit;
+        }
     }
 
     img {
@@ -253,7 +255,6 @@
         margin-right: auto;
         margin-top:60px;
         margin-bottom: 60px;
-        padding: 10px;
         border: 1px solid $grey-color-light;
       }
 
@@ -273,7 +274,8 @@
         font-family: $base-font-family;
         font-weight: 700;
         color: #8b8687;
-        padding: 0 0 20px 0;
+        padding-top: $spacing-unit / 2;
+        padding-bottom: $spacing-unit / 2;
         @include media-query($on-laptop) {
             font-size: 22px;
         }
@@ -283,7 +285,7 @@
         font-size: 20px;
         font-family: $base-font-family;
         color: #8b8687;
-        border-top: 1px solid $grey-color-light;
+        border-top: 2px dotted $grey-color-light;
         padding-top: 30px;
         font-weight: 700;
         @include media-query($on-laptop) {
