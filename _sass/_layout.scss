@@ -102,6 +102,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey-color-dark;
 }
 
 .footer-heading {
@@ -225,6 +226,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    background-color: white;
+    padding: 40px;
 
     h2 {
         font-size: 32px;
@@ -244,6 +247,8 @@
 
     h4 {
         font-size: 20px;
+        border-top: 1px solid $grey-color-light;
+        padding-top: 30px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
