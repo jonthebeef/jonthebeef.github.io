@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -45,6 +44,7 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+
 }
 
 
@@ -91,15 +91,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $red-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    // &:visited {
+    //     color: darken($red-color, 15%);
+    // }
 
     &:hover {
-        color: $text-color;
+        color: $red-color;
         text-decoration: underline;
     }
 }
@@ -110,12 +110,12 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    color: $grey-color-dark;
+    background-color: #EFFFE9;
+    padding: $spacing-unit * 1.1;
+    font-family: $base-font-family;
+    font-size: 20px;
+    margin: 30px 0;
 
     > :last-child {
         margin-bottom: 0;
