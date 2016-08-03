@@ -9,7 +9,7 @@
 title: i'm jonthebeef.
 email: me@jonthebeef.xyz
 description: > # this means to ignore newlines until "baseurl:"
-  Manchester based digital product strategist and designer. Startup founder, music, food, and geek. Musings, porfolio, and thinking.
+  Manchester based digital product strategist and designer. Startup founder, music and food lover, and geek. Musings, portfolio, and thinking.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jonthebeef.xyz" # the base hostname & protocol for your site
 twitter_username: jonthebeef
