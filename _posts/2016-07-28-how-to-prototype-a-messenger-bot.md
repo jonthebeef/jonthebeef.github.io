@@ -3,9 +3,12 @@ layout: post
 title:  How to prototype a Facebook Messenger bot with Keynote.
 date:   2016-07-28 14:13:00 +0100
 excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
-categories: work
+categories: tutorial, work
 tags: facebook, messenger, prototype, sketch, keynote
 ---
+<iframe width="100%" height="484px" src="https://www.youtube.com/embed/Wl69tkhvgtk" frameborder="0" allowfullscreen></iframe>
+
+
 Recently, I was asked by my pals at [TalkBe](http://talkbe.com) to help them prototype an example of how a bot could work for a brand they work with in [Facebook Messenger](http://messengerblog.com/bots/messenger-platform-1-1-ratings-quick-replies-account-linking-and-more/). There's a few UI kits kicking around, and so they thought I'd be able to use one to showcase a conversation a typical user could have with the bot, and specific commercial actions that could be taken.
 
 Here's the problem; How can we showcase this conversation in the most easy to understand way? As this was essentially a pitch piece, how could we impress the client, while getting around the typical build time issues, and then put it into the best format so the client could see the idea we've had?
@@ -36,8 +39,6 @@ We’ll assume here that you’re familiar with editing template documents in Sk
 - [*Facebook*](http://facebook.design/ios9) have this rather excellent iOS9 UI kit, which contains some bits you might find useful later on. And if you're reading this in a post iOS 10 world, they've probably got a kit for that too.
 
 We’re going to focus on animating assets in Keynote, to demonstrate what a bot experience would be like. In the real world, for your own conversations, you might edit the assets in Sketch and copy them in to Keynote for prototyping. Or redraw the assets in Keynote, so you can edit them there. I’ll leave that one to you though!
-
-<iframe width="100%" height="484px" src="https://www.youtube.com/embed/Wl69tkhvgtk" frameborder="0" allowfullscreen></iframe>
 
 #### Tutorial Assets
 

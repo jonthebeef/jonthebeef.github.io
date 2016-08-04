@@ -184,9 +184,9 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        // margin-bottom: $spacing-unit;
         padding-bottom: $spacing-unit;
-        border-bottom: 1px solid $yellow-color;
+        border-bottom: 2px dotted $grey-color-light;
         background-color: white;
         padding: 3%;
 
@@ -201,9 +201,30 @@
 
 }
 
+.home-post-meta {
+    float: right;
+    font-size: 20px;
+    color: $grey-color;
+    font-weight: 300;
+
+}
+
+.home-post-excerpt {
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+
+}
+
 .post-link {
     display: block;
     font-size: 24px;
+    // color: #white;
+    // background-color: $red-color;
+    // padding: 10px;
+    //
+    //   a {
+    //     color: white;
+    //   }
 }
 
 
@@ -222,6 +243,7 @@
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     font-weight:700;
+
 
     @include media-query($on-laptop) {
         font-size: 36px;
