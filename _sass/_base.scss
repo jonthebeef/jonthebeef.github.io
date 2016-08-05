@@ -91,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $red-color;
+    color: #011627;
+    // font-weight: 700;
     text-decoration: none;
 
     // &:visited {
@@ -99,7 +100,7 @@ a {
     // }
 
     &:hover {
-        color: $red-color;
+        // color: $red-color;
         text-decoration: underline;
     }
 }

@@ -5,7 +5,7 @@
     // border-top: 5px solid $yellow-color;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: $red-color;
+    background-color: #d62a9d;
 
 
     // Positioning context for the mobile navigation icon
@@ -218,6 +218,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    font-weight: 700;
     // color: #white;
     // background-color: $red-color;
     // padding: 10px;
@@ -250,6 +251,23 @@
     }
 }
 
+.post-title2 {
+    font-size: 90px;
+    font-family: 'Comfortaa', cursive;
+    // color: #f9320c;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    // font-weight:700;
+
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+        font-family: $base-font-family;
+    }
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
     background-color: white;
@@ -271,12 +289,18 @@
         }
     }
 
+    a {
+        color: #d62a9d;
+        font-weight: none;
+
+    }
+
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top:60px;
-        margin-bottom: 60px;
+        margin-top: $spacing-unit * 2;
+        margin-bottom: $spacing-unit * 2;
         border: 1px solid $grey-color-light;
       }
 
@@ -289,6 +313,11 @@
         @include media-query($on-laptop) {
             font-size: 28px;
         }
+
+        a {
+            font-weight: 700;
+
+        }
     }
 
     h3 {
@@ -296,7 +325,7 @@
         font-family: $base-font-family;
         font-weight: 700;
         color: #8b8687;
-        padding-top: $spacing-unit / 2;
+        // padding-top: $spacing-unit / 2;
         padding-bottom: $spacing-unit / 2;
         @include media-query($on-laptop) {
             font-size: 22px;
