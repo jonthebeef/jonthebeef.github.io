@@ -2,5 +2,5 @@
   {% if words < 360 %}
     1 min
   {% else %}
-    Reading time: {{ words | divided_by:180 }} mins
+    Reading time: <span class="reading-time">{{ words | divided_by:180 }} mins</span>
   {% endif %}

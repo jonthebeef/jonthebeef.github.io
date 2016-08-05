@@ -112,7 +112,7 @@ Move quick reply 2 so it’s behind the keyboard.
 
 Now duplicate slide 4, and drag in [02.png](https://www.dropbox.com/s/1dgezkhwtirz1hz/02.png?dl=0) from the assets. Position it to the furthermost right hand guide, about 20 pixels below the first message.
 
->PRO TIP: Hold down shift and then press the direction you want to move in. Moves the element 10 pixels at a time.
+>**PRO TIP:** Hold down shift and then press the direction you want to move in. Moves the element 10 pixels at a time.
 
 Playing your presentation back now, will show the quick replies move behind the keyboard, and the selected quick reply be added to the conversation.
 
@@ -219,7 +219,7 @@ So now, if you play the entire deck back through, you should have prototyped the
 
 Once you’re happy with the flow, you might decide to output it in a form that anyone can see it. Let’s export to video.
 
-Go to File > Export > Quicktime.
+Go to **File > Export > Quicktime**.
 
 ![](/images/fbprototype/final_1.png)
 
