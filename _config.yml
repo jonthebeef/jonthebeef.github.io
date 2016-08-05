@@ -16,3 +16,6 @@ twitter_username: jonthebeef
 
 # Build settings
 markdown: kramdown
+
+# Google services
+google_analytics: UA—82044029-1
