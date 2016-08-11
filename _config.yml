@@ -19,3 +19,14 @@ markdown: kramdown
 
 # Google services
 google_analytics: UA—82044029-1
+
+# Gems
+gems: ['jekyll-emoji']
+emoji:
+  format: emojione-svg # default html
+  ascii: true # default false
+  shortname: true # default true
+  src: "/assets/imgs/emojis" # defaults to "https://cdn.jsdelivr.net/emojione/assets/#{ext}"
+
+gems:
+  - jemoji

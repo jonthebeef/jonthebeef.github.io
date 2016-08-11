@@ -3,11 +3,10 @@ layout: post2
 title:  How to prototype a Facebook Messenger bot with Keynote.
 date:   2016-07-28 14:13:00 +0100
 excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
-categories: tutorial 
+categories: tutorial
 tags: facebook, messenger, prototype, sketch, keynote
 ---
 <iframe style="margin-bottom: 30px" width="100%" height="484px" src="https://www.youtube.com/embed/Wl69tkhvgtk" frameborder="0" allowfullscreen></iframe>
-
 
 Recently, I was asked by my pals at [TalkBe](http://talkbe.com) to help them prototype an example of how a bot could work for a brand they work with in [Facebook Messenger](http://messengerblog.com/bots/messenger-platform-1-1-ratings-quick-replies-account-linking-and-more/). There's a few UI kits kicking around, and so they thought I'd be able to use one to showcase a conversation a typical user could have with the bot, and specific commercial actions that could be taken.
 
