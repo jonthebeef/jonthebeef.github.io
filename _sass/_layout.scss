@@ -194,7 +194,7 @@
 }
 
 .post-meta {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     color: $grey-color;
     // float: right;
@@ -356,10 +356,11 @@
   }
 
   .reading-time {
-      background-color: $pink-color;
-      padding: 4px;
-      border-radius: 5px;
-      color: white;
+      // background-color: $pink-color;
+      // padding: 4px 10px;
+      // border-radius: 5px;
+      color: $pink-color;
+      font-weight: 700;
 
 
   }
