@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
   <!-- Google apps stuff -->
   <meta name="google-site-verification" content="wV4up3wQBYEzTTHUeKEk39Zvdl3cz7Azl8yY5GAik3U" />
+
   <!--Google fonts-->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Cardo|Merriweather:300|Source+Serif+Pro" rel="stylesheet">
@@ -18,4 +20,8 @@
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+
+  <!-- Twitter cards -->
+  
+  {% include twittercards.html %}
 </head>
