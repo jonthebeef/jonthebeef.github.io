@@ -3,13 +3,19 @@
  */
 .site-header {
     // border-top: 5px solid $yellow-color;
-    // border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 2px dotted $pink-color;
     min-height: 56px;
-    background-color: #d62a9d;
-
+    background-color: white;
+    // background-color: #ecf0f1;
+        // background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width:100%;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    // position: relative;
 }
 
 .site-title {
@@ -36,7 +42,7 @@
     }
 
     .page-link {
-        color: white;
+        color: $grey-color-dark;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -180,7 +186,7 @@
 }
 
 .post-list {
-    margin: $spacing-unit * 2 0;
+    margin: 86px 0 $spacing-unit * 2 0;
     list-style: none;
 
     > li {
@@ -204,7 +210,7 @@
 .home-post-meta {
     float: right;
     font-size: 20px;
-    color: $grey-color;
+    color: $pink-color;
     font-weight: 300;
 
 }
@@ -258,14 +264,14 @@
     // color: #f9320c;
     letter-spacing: -1px;
     line-height: 1.2;
-    margin-top: 0.67em;
+    margin-top: 1.2em;
     margin-bottom: 0.67em;
     // font-weight:700;
 
 
     @include media-query($on-laptop) {
-        font-size: 36px;
-        font-family: $base-font-family;
+        font-size: 40px;
+        margin-top: 2.1em;
     }
 }
 
@@ -346,21 +352,90 @@
     }
 }
 
-  .home_title {
-      font-size: 70px;
-      font-weight: 700;
-      margin-bottom: 3%;
+.reading-time {
+    // background-color: $pink-color;
+    // padding: 4px 10px;
+    // border-radius: 5px;
+    color: $pink-color;
+    font-weight: 700;
+
+}
+
+.homeview {
+  background-image: url("/images/kendrickbump.gif");
+  // background-color: $pink-color;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+
+  h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 400px;
+    color: white;
+    line-height: 1.1;
+    // margin-bottom: 3%;
+    // margin-top:60px;
+    text-align: center;
+    @include media-query($on-laptop) {
+        padding-bottom: 2%;
+        font-size: 400%;
+        padding-top:60%;
+        }
+    }
+
+    h2 {
+      font-family: "Codystar", sans-serif;
+      font-size: 80px;
+      color: white;
       text-align: center;
-      padding: 2%;
-      background-color: white;
+      @include media-query($on-laptop) {
+          padding-bottom: 3%;
+          font-size: 120%;
+          }
+    }
+}
+
+.homeview-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    @include media-query($on-laptop) {
+        padding-bottom: 20px;
+        font-size: 100%;
+        }
+
+}
+
+.statement{
+  @include media-query($on-laptop) {
+      padding-bottom: 20px;
+      font-size: 70%;
+      }
+}
+
+// Buttons
+
+  .button1 {
+    background-color: $pink-color;
+    color: $grey-color-light;
+    margin-top: $spacing-unit * 4;
+    font-family: "comfortaa", sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
   }
 
-  .reading-time {
-      // background-color: $pink-color;
-      // padding: 4px 10px;
-      // border-radius: 5px;
-      color: $pink-color;
-      font-weight: 700;
-
-
+  .button2 {
+    background-color: $grey-color-light;
+    color: $pink-color;
+    margin-top: $spacing-unit;
+    font-family: "comfortaa", sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
   }
