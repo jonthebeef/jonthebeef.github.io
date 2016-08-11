@@ -5,6 +5,7 @@ date:   2016-07-28 14:13:00 +0100
 excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
 categories: tutorial
 tags: facebook, messenger, prototype, sketch, keynote
+thumbnail: false
 ---
 <iframe style="margin-bottom: 30px" width="100%" height="484px" src="https://www.youtube.com/embed/Wl69tkhvgtk" frameborder="0" allowfullscreen></iframe>
 
