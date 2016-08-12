@@ -64,7 +64,8 @@ Arrange the nav bar so it’s at the top of the screen, with the account title i
 
 Position the Keyboard so it’s mainly off the bottom of the slide, leaving only the top “Type a message…” section showing.
 
-![](/images/fbprototype/step_2.png)
+{% include image.html url="/images/fbprototype/step_2.png" description="Here's step two." %}
+<!-- ![](/images/fbprototype/step_2.png) -->
 
 #### Step 3
 
@@ -78,7 +79,9 @@ Now drag in [quick reply 1.png](https://www.dropbox.com/s/emtrmw7g34me6ah/quick%
 
 Select the slide, and click “Animate” from above the Inspector. Click “Add an effect”, and select “Magic Move”. Change the duration to 0.3, and ensure “Fade Unmatched Objects” is selected.
 
-![](/images/fbprototype/step_4_1.png)
+{% include image.html url="/images/fbprototype/step_4_1.png" description="Here's step four." %}
+
+<!-- ![](/images/fbprototype/step_4_1.png) -->
 
 Right click on the slide, and select “Duplicate”.
 
