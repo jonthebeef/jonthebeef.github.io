@@ -371,32 +371,33 @@
   color: white;
   background-size: cover;
   font-family: "Source Serif Pro", serif;
+
   text-align: center;
 
   h1 {
     font-family: "Comfortaa", sans-serif;
-    font-size: 400px;
+    font-size: 24vw;
     color: white;
     line-height: 1.1;
     // margin-bottom: 3%;
     // margin-top:60px;
     text-align: center;
-    @include media-query($on-laptop) {
-        padding-bottom: 2%;
-        font-size: 400%;
-        padding-top:60%;
-        }
+    // @include media-query($on-laptop) {
+    //     padding-bottom: 2%;
+    //     font-size: 400%;
+    //     padding-top:60%;
+    //     }
     }
 
     h2 {
       font-family: "Codystar", sans-serif;
-      font-size: 80px;
+      font-size: 7vw;
       color: white;
       text-align: center;
-      @include media-query($on-laptop) {
-          padding-bottom: 3%;
-          font-size: 120%;
-          }
+      // @include media-query($on-laptop) {
+      //     padding-bottom: 3%;
+      //     font-size: 120%;
+      //     }
     }
 }
 
@@ -412,30 +413,15 @@
 }
 
 .statement{
-  @include media-query($on-laptop) {
-      padding-bottom: 20px;
-      font-size: 70%;
+    font-size: 20px;
+    @include media-query($on-laptop) {
+        font-size: 100%;
+        }
+    @include media-query($on-palm) {
+      font-size: 4vw;
+      }
+    @include media-query($on-hand) {
+      font-size: 5vw;
+      line-height: 1.1;
       }
 }
-
-// Buttons
-
-  .button1 {
-    background-color: $pink-color;
-    color: $grey-color-light;
-    margin-top: $spacing-unit * 4;
-    font-family: "comfortaa", sans-serif;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  .button2 {
-    background-color: $grey-color-light;
-    color: $pink-color;
-    margin-top: $spacing-unit;
-    font-family: "comfortaa", sans-serif;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
