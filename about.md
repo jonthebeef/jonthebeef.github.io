@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I help companies design great digital products. In the last 12 years, I’ve ran an award winning digital agency, worked with some leading international brands, and released acclaimed products of my own too.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I’m a thinker, designer, and doer. I love to uncover big problems, and apply design thinking to create amazing solutions, based on what’s both possible now and in the future.
 
-You can find the source code for Jekyll at
+I have a passion for designing digital products which focus on core simplicity, and a belief in the power of storytelling. I understand how this translates into user and customer experiences.
+
+<!-- You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[jekyll](https://github.com/jekyll/jekyll) -->
