@@ -205,6 +205,7 @@
     color: $grey-color;
     // float: right;
 
+
 }
 
 .home-post-meta {
@@ -359,6 +360,13 @@
     color: $pink-color;
     font-weight: 700;
 
+    a {
+      text-decoration: none;
+      color: $pink-color;
+      font-weight: 700;
+
+    }
+
 }
 
 .homeview {
@@ -376,7 +384,7 @@
 
   h1 {
     font-family: "Comfortaa", sans-serif;
-    font-size: 24vw;
+    font-size: 22vw;
     color: white;
     line-height: 1.1;
     // margin-bottom: 3%;
@@ -425,3 +433,29 @@
       line-height: 1.1;
       }
 }
+
+  h1#before-you-design-the-solution-you-have-to-understand-the-challenge {
+    font-size: 2.5em;
+    line-height: 1.3;
+    font-family: serif;
+  }
+
+  h2#i-use-data-to-construct-insights-around-the-problem-in-hand-then-look-at-competitive-sets-to-determine-where-a-product-can-establish-a-foothold-i-speak-to-all-types-of-stakeholder-to-understand-their-thinking-and-where-the-product-should-go {
+    font-size: 32px;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 400;
+    padding: 20px 0;
+    color: #8b8687;
+  }
+
+  header.page-header {
+
+    h1 {
+      font-size: 3.5em;
+      line-height: 1.3;
+      font-weight: 700;
+      padding-top: 140px;
+      padding-bottom: 30px;
+    }
+
+  }
