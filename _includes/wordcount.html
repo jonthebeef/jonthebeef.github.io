@@ -1,6 +1,0 @@
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-    1 min
-  {% else %}
-    <img src="/images/alarm_clock.png" style="width:20px; vertical-align:top;padding-left:10px;">  Reading time: <span class="reading-time">{{ words | divided_by:180 }} mins</span>
-  {% endif %}
