@@ -1,0 +1,10 @@
+<p class="post-meta"><img src="/images/calendar.png" style="width:20px; vertical-align:top; padding-left:10px;">  Published on <time class="reading-time" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+in <span class="reading-time"> {% for category in page.categories %}
+{{ category }}
+{% endfor %} </span>
+<span class="post-meta">   {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1 min
+  {% else %}
+    <img src="/images/alarm_clock.png" style="width:20px; vertical-align:top;padding-left:10px;">  Reading time: <span class="reading-time">{{ words | divided_by:180 }} mins</span>
+  {% endif %}</span></p>
