@@ -4,7 +4,8 @@ in <span class="reading-time"> {% for category in page.categories %}
 {% endfor %} </span>
 <span class="post-meta">   {% assign words = content | number_of_words %}
   {% if words < 360 %}
-    1 min
+    <img src="/images/alarm_clock.png" style="width:20px; vertical-align:top;padding-left:10px;">
+    Reading time: <span class="reading-time">1 min</span>
   {% else %}
-    <img src="/images/alarm_clock.png" style="width:20px; vertical-align:top;padding-left:10px;">  Reading time: <span class="reading-time">{{ words | divided_by:180 }} mins</span>
+    Reading time: <span class="reading-time">{{ words | divided_by:180 }} mins</span>
   {% endif %}</span></p>

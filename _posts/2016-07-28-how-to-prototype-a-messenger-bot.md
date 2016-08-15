@@ -1,5 +1,5 @@
 ---
-layout: post2
+layout: post
 title:  How to prototype a Facebook Messenger bot with Keynote.
 date:   2016-07-28 14:13:00 +0100
 excerpt: Let's look at how we can prototype an iOS Facebook Messenger flow, using Sketch and Keynote.
@@ -46,7 +46,7 @@ We’re going to focus on animating assets in Keynote, to demonstrate what a bot
 
 I’ve also included the completed Sketch file you can play with as you please.
 
-#### Step 1
+#### Step 1 - Setup your Keynote file
 
 Open [fb messenger iphone template](https://www.dropbox.com/s/e5zyfe4v3s2xrj9/fb%20messenger%20iphone%20template.kth?dl=0) from the Keynote folder. Select “New document” when prompted.
 
@@ -56,7 +56,7 @@ Select “Show guides at object edges”. The template provided has the necessar
 
 ![](/images/fbprototype/step_1.png)
 
-#### Step 2
+#### Step 2 - Add the first assets
 
 Open the assets folder, and drag in [iOS - Nav Bar.png](https://www.dropbox.com/s/qg4mgppto568eej/iOS%20-%20Nav%20Bar.png?dl=0), [iOS - Account Title.png](https://www.dropbox.com/s/l73vmpdcgajvo02/iOS%20-%20Account%20Title.png?dl=0), and [iOS - Keyboard.png](https://www.dropbox.com/s/i7zqcg95nifopqe/iOS%20-%20Keyboard.png?dl=0).
 
@@ -67,7 +67,7 @@ Position the Keyboard so it’s mainly off the bottom of the slide, leaving only
 {% include image.html url="/images/fbprototype/step_2.png" description="Here's step two." %}
 <!-- ![](/images/fbprototype/step_2.png) -->
 
-#### Step 3
+#### Step 3 - Setting up the quick reply
 
 Drag in [01.png](https://www.dropbox.com/s/eev8bhm4d04bmts/01.png?dl=0) from the assets, and position towards the top top left, below the account title.
 
@@ -75,7 +75,7 @@ Now drag in [quick reply 1.png](https://www.dropbox.com/s/emtrmw7g34me6ah/quick%
 
 ![](/images/fbprototype/step_3.png)
 
-#### Step 4
+#### Step 4 - Getting your Magic Move freak on
 
 Select the slide, and click “Animate” from above the Inspector. Click “Add an effect”, and select “Magic Move”. Change the duration to 0.3, and ensure “Fade Unmatched Objects” is selected.
 
@@ -91,7 +91,7 @@ Go back to the first slide, and click “Play”. You should have something like
 
 ![](/images/fbprototype/step_4_2.gif)
 
-#### Step 5
+#### Step 5 - Simulating a tap
 
 Nice work, you should have simulated quick replies showing for a user to select to continue. Let’s now simulate the user selecting a reply, and adding it to the conversation. This is because Magic Move transitioned the position of quick reply 1 from it’s place on the first slide to the second slide.
 
@@ -107,7 +107,7 @@ Press play. Your animation should look like this now.
 
 ![](/images/fbprototype/step_5.gif)
 
-#### Step 6
+#### Step 6 - Adding replies
 
 Duplicate slide 3, which should still have the Magic Move transition applied.
 
@@ -127,7 +127,7 @@ Here’s what you should be seeing.
 
 ![](/images/fbprototype/step_6_1.gif)
 
-#### Step 7
+#### Step 7 - Structured messages in a carousel
 
 We now need to move everything up, so we can make room for the next element.
 
@@ -153,7 +153,7 @@ Press play.
 
 ![](/images/fbprototype/step_7_4.gif)
 
-#### Step 8
+#### Step 8 - Simulating a webview
 
 Let’s simulate a user pressing “Listen on Spotify”, and being taken into a webview.
 
@@ -171,7 +171,7 @@ You should be left with this.
 
 ![](/images/fbprototype/step_8_3.gif)
 
-#### Step 9
+#### Step 9 - Introducing the menu
 
 We’re now into the final straight, and by now, you should have a pretty good handle on how Magic Move works, and what the outputs look like.
 
@@ -201,7 +201,7 @@ It should look like this.
 
 ![](/images/fbprototype/step_9_3.gif)
 
-#### Step 10
+#### Step 10 - Adding the final replies
 
 Now, it’s the last two interactions before we can head to the grand output. Duplicate slide 14, drag in [05.png](https://www.dropbox.com/s/mulbnqm6m8z0om2/05.png?dl=0), position on the corresponding side, and shift the other content up to accommodate it.
 
@@ -211,7 +211,7 @@ You’ll have this.
 
 ![](/images/fbprototype/step_10_1.gif)
 
-#### Final Step
+#### Step 11 - Outputting a video
 
 So now, if you play the entire deck back through, you should have prototyped the complete flow. We have missed out a couple of tiny things along the way, so why not try:
 
