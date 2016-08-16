@@ -1,0 +1,11 @@
+---
+layout: page
+title: Process
+---
+<div class="processes">
+{% for process in site.process %}
+<div class="process">
+  <h2><a href="{{ process.url }}">{{ process.title }}</a></h2>
+</div>
+{% endfor %}
+</div>
