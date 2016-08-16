@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: process
 title: Design
-permalink: /process/design
+date:   2016-07-28 14:14:00 +0100
 ---
 
 # “The Product is the Service is the Marketing” - Russell Davies

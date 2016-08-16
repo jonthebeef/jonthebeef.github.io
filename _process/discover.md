@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: process
 title: Discover
-permalink: /process/discover
+date:   2016-07-28 14:15:00 +0100
 ---
 
 # Before you design the solution, you have to understand the challenge.
