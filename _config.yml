@@ -31,3 +31,9 @@ emoji:
 
 gems:
   - jemoji
+
+collections:
+  work:
+    output: true
+  process:
+    output: true
