@@ -1,0 +1,10 @@
+---
+layout: work
+title: Work
+---
+<div class="work">
+{% for job in site.work %}
+<div class="job">
+  <h2><a href="{{ job.url }}">{{ job.title }}</a></h2>
+</div>
+{% endfor %}
