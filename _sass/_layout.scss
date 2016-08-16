@@ -253,7 +253,6 @@
     margin-bottom: 0.67em;
     font-weight:700;
 
-
     @include media-query($on-laptop) {
         font-size: 36px;
     }
@@ -261,14 +260,12 @@
 
 .post-title2 {
     font-size: 90px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', serif;
     // color: #f9320c;
     letter-spacing: -1px;
     line-height: 1.2;
     margin-top: 1.2em;
     margin-bottom: 0.67em;
-    // font-weight:700;
-
 
     @include media-query($on-laptop) {
         font-size: 40px;
@@ -457,5 +454,35 @@
       padding-top: 140px;
       padding-bottom: 30px;
     }
+
+  }
+
+  .process {
+      display: inline-block;
+      width: 267px;
+      height: 28.4%;
+      margin-right: 6%;
+      background-color: $grey-color;
+      color: white;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 252px;
+      border-radius: 50%;
+      box-shadow: 0 10px 11px rgba(0, 0, 0, 0.1);
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background-color: $pink-color;
+      }
+    }
+
+  .processes {
+    margin: 60px 0;
+    width: 100%;
+    :last-child:not(:only-child) { margin-right: 0px !important}
 
   }
