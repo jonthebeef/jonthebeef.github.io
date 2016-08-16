@@ -469,14 +469,14 @@
       line-height: 252px;
       border-radius: 50%;
       box-shadow: 0 10px 11px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      font-family: "Source Serif Pro", serif;
+      font-weight: 400;
 
-      a {
-        color: white;
-        text-decoration: none;
-      }
 
       &:hover {
         background-color: $pink-color;
+        text-decoration: none;
       }
     }
 
