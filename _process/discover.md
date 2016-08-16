@@ -1,7 +1,7 @@
 ---
 layout: process
 title: Discover
-date:   2016-07-28 14:15:00 +0100
+date: 2016-07-20 11:58:31 +0100
 ---
 
 # Before you design the solution, you have to understand the challenge.

@@ -1,7 +1,7 @@
 ---
 layout: process
 title: Design
-date:   2016-07-28 14:14:00 +0100
+date: 2016-07-21 11:58:31 +0100
 ---
 
 # “The Product is the Service is the Marketing” - Russell Davies

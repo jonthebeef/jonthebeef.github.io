@@ -3,9 +3,7 @@ layout: page
 title: Process
 ---
 <div class="processes">
-{% for process in site.process %}
-<div class="process">
-  <h2><a href="{{ process.url }}">{{ process.title }}</a></h2>
-</div>
+{% assign process = site.process | sort: 'date' %}
+{% for process in process limit:3  %}
+    <a class="process" href="{{ process.url | prepend: site.baseurl }}"><h2>{{ process.title }}</h2></a>
 {% endfor %}
-</div>
