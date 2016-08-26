@@ -21,7 +21,11 @@ I have a working familiarity with all main flavours of analytic platforms includ
 ### Iteration
 I love responding to the slightest change in user behaviour with solutions to optimise desired user flows.
 
-#### Results
-- Continual optimisation of user flows
-- Analytical understanding of why users do things
-- Contribution to the overall product roadmap.
+<div class="process-results">
+  <h4>Outputs</h4>
+    <ul>
+      <li>Continual optimisation of user flows</li>
+      <li>Analytical understanding of why users do things</li>
+      <li>Contribution to the overall product roadmap</li>
+    </ul>
+  </div>

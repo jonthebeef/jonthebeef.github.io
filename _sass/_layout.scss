@@ -367,7 +367,7 @@
 }
 
 .homeview {
-  background-image: url("/images/nickandpj.gif");
+  background-image: url("/images/princegocrazy.gif");
   // background-color: $pink-color;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -381,7 +381,7 @@
 
   h1 {
     font-family: "Comfortaa", sans-serif;
-    font-size: 22vw;
+    font-size: 19vw;
     color: white;
     line-height: 1.1;
     // margin-bottom: 3%;
@@ -396,7 +396,7 @@
 
     h2 {
       font-family: "Codystar", sans-serif;
-      font-size: 7vw;
+      font-size: 5vw;
       color: white;
       text-align: center;
       // @include media-query($on-laptop) {
@@ -431,38 +431,37 @@
       }
 }
 
-  h1#before-you-design-the-solution-you-have-to-understand-the-challenge {
-    font-size: 2.5em;
-    line-height: 1.3;
-    font-family: serif;
-  }
+  // h1#before-you-design-the-solution-you-have-to-understand-the-challenge {
+  //   font-size: 2.5em;
+  //   line-height: 1.3;
+  //   font-family: serif;
+  // }
+  //
+  // h2#i-use-data-to-construct-insights-around-the-problem-in-hand-then-look-at-competitive-sets-to-determine-where-a-product-can-establish-a-foothold-i-speak-to-all-types-of-stakeholder-to-understand-their-thinking-and-where-the-product-should-go {
+  //   font-size: 32px;
+  //   font-family: "Source Serif Pro", serif;
+  //   font-weight: 400;
+  //   padding: 20px 0;
+  //   color: #8b8687;
+  // }
+  //
+  // header.page-header {
+  //
+  //   h1 {
+  //     font-size: 3.5em;
+  //     line-height: 1.3;
+  //     font-weight: 700;
+  //     padding-top: 140px;
+  //     padding-bottom: 30px;
+  //   }
+  //
+  // }
 
-  h2#i-use-data-to-construct-insights-around-the-problem-in-hand-then-look-at-competitive-sets-to-determine-where-a-product-can-establish-a-foothold-i-speak-to-all-types-of-stakeholder-to-understand-their-thinking-and-where-the-product-should-go {
-    font-size: 32px;
-    font-family: "Source Serif Pro", serif;
-    font-weight: 400;
-    padding: 20px 0;
-    color: #8b8687;
-  }
-
-  header.page-header {
-
-    h1 {
-      font-size: 3.5em;
-      line-height: 1.3;
-      font-weight: 700;
-      padding-top: 140px;
-      padding-bottom: 30px;
-    }
-
-  }
-
-  .process {
+  .myprocess {
       display: inline-block;
       width: 267px;
       height: 28.4%;
-      margin-right: 6%;
-      background-color: $grey-color;
+      margin-right: 6.3%;
       color: white;
       text-align: center;
       vertical-align: middle;
@@ -472,17 +471,95 @@
       text-decoration: none;
       font-family: "Source Serif Pro", serif;
       font-weight: 400;
-
+      border: 1px white solid;
 
       &:hover {
-        background-color: $pink-color;
         text-decoration: none;
+        opacity: 0.8;
+        box-shadow: 0 10px 11px rgba(0, 0, 0, 0.2);
       }
     }
 
-  .processes {
-    margin: 60px 0;
+  .myprocesses {
     width: 100%;
-    :last-child:not(:only-child) { margin-right: 0px !important}
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    a:nth-child(1) {background-image: url("/images/discovery2.gif"); background-position: center; height: auto;}
+    a:nth-child(2) {background-image: url("/images/design.gif"); background-position: top; height: auto;}
+    a:nth-child(3) {background-image: url("/images/measure.gif"); background-position: center; background-size: cover; background-repeat: no-repeat; height: auto; margin-right: 0px !important;}
+}
 
+  .myprocess-content {
+    height: 100vh;
+  }
+
+  // Process page styles
+  .process-content {
+      font-family: "Source Serif Pro", serif;
+      font-weight: 400;
+      font-size: 20px / 1.5;
+
+      h1{
+
+        font-size: 40px;
+        line-height: 50px;
+        background-color: $pink-color;
+        color: white;
+        // font-weight: 700;
+        margin-bottom: $spacing-unit;
+        padding: 40px;
+            border-radius: 20px;
+
+      }
+
+      h2 {
+
+      }
+
+      h3 {
+        font-size: 26px;
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #8b8687;
+        padding-bottom: 15px;
+        }
+
+      p {
+        margin-bottom: $spacing-unit;
+      }
+
+      ul {
+        margin-bottom: 0px;
+      }
+  }
+
+  .process-heading {
+      font-size: 20px;
+      margin-top: 120px;
+
+  }
+
+  .process-results {
+    background-color:$grey-color-dark;
+    color:$grey-color-light;
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit !important;
+
+
+    h4 {
+      font-size: 26px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  h1.page-title {
+    margin-top: 120px;
+    margin-bottom: $spacing-unit;
+    font-size: 60px;
+    font-weight: 700;
+    // text-align:center;
+    // font-family: "Source Serif Pro", serif;
+    // font-style: oblique;
   }

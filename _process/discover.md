@@ -20,8 +20,12 @@ Speak to people either in formal or informal interview and focus group sessions.
 ### Storytelling
 Lean research methodologies help quickly identify journeys and insights which inform product design principles.
 
-#### Results
-- Problem qualification
-- User archetypes and journeys
-- Competitive understanding
-- Design principles: Who is this for and why are we doing it?
+<div class="process-results">
+  <h4>Outputs</h4>
+  <ul>
+    <li>Problem qualification</li>
+    <li>User archetypes and journeys</li>
+    <li>Competitive understanding</li>
+    <li>Design principles: Who is this for and why are we doing it?</li>
+  </ul>
+</div>

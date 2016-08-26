@@ -4,7 +4,7 @@ title: Design
 date: 2016-07-21 11:58:31 +0100
 ---
 
-# “The Product is the Service is the Marketing” - Russell Davies
+# “The Product is the Service is the Marketing” - *Russell Davies*
 
 ## Using insights delivered through the discovery phase, I work with teams to create innovative solutions using the defined product strategy.
 
@@ -149,8 +149,12 @@ I work on UI and Prototypes in tandem to enable faster generation of user flows 
 ### Technical partnerships
 Collaboration with development teams is paramount to design constraints and smooth agile handover.
 
-#### 	Results
-- Joined-up UX design thinking
-- Slick UI designs based on modern principles
-- Functional prototypes which showcase the user journey.
-- Anyone can have a play!
+<div class="process-results">
+  <h4>Outputs</h4>
+    <ul>
+      <li>Joined-up UX design thinking</li>
+      <li>Slick UI designs based on modern principles</li>
+      <li>Functional prototypes which showcase the user journey</li>
+      <li>Anyone can have a play!</li>
+    </ul>
+  </div>
