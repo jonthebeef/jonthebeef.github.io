@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: process-index
 title: Process
 ---
-<div class="processes">
+<div class="myprocess-content">
+    <div class="myprocesses">
 {% assign process = site.process | sort: 'date' %}
 {% for process in process limit:3  %}
-    <a class="process" href="{{ process.url | prepend: site.baseurl }}"><h2>{{ process.title }}</h2></a>
+    <a class="myprocess" href="{{ process.url | prepend: site.baseurl }}"><h2>{{ process.title }}</h2></a>
 {% endfor %}
+</div>
+  </div>
