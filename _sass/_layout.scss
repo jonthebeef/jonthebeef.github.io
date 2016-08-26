@@ -122,6 +122,12 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    color: $grey-color;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+    }
 }
 
 .footer-col-wrapper {
