@@ -196,7 +196,9 @@
 .post-list {
     // margin: 86px 0 $spacing-unit * 2 0;
     list-style: none;
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit 0;
+
+    li:last-child { border-bottom:0px; }
 
     > li {
         // margin-bottom: $spacing-unit;
@@ -377,7 +379,7 @@
 
 .homeview {
   // background-image: url("/images/kendrickbump2.gif");
-  background-color: #3498db;
+  background-color: $blue-color;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -590,10 +592,31 @@
     }
   }
 
-  .home-page-heading {
+  .home-page-heading{
     text-align: center;
-    margin: $spacing-unit 0;
+    margin-top: $spacing-unit * 2; 
+  }
+
+  .highlight-heading {
+    text-align: center;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: 0px;
     font-family: "Source Serif Pro", serif;
-    font-weight: 400;
     font-size: 20px / 1.5;
+    background: rgba(255, 230, 0, 0.5);
+    padding: 3px 5px;
+    margin: -3px -5px;
+    line-height: 1.7;
+    border-radius: 5px;
+    display:inline;
+    background-image: linear-gradient(white, white 0.6em, transparent 0.6em, transparent), linear-gradient(to top, white, white 0.58em, transparent 0.58em, transparent), linear-gradient(to right, #ADF10E, #ADF10E 100%, transparent 100%, transparent);
+
+  }
+
+
+
+
+
+  ul.post-list {
+    margin-left: 0px;
   }
