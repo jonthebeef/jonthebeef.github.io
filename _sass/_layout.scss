@@ -274,7 +274,7 @@
     font-family: 'Comfortaa', serif;
     // color: #f9320c;
     letter-spacing: -1px;
-    line-height: 1.2;
+    line-height: 1.3;
     margin-top: 1.2em;
     margin-bottom: 0.67em;
 
@@ -352,9 +352,10 @@
         font-size: 20px;
         font-family: $base-font-family;
         color: #8b8687;
-        border-top: 2px dotted $grey-color-light;
-        padding-top: 30px;
+        border-bottom: 2px dotted #e8e8e8;
+        padding-bottom: 15px;
         font-weight: 700;
+        margin-bottom: 30px;
         @include media-query($on-laptop) {
             font-size: 18px;
         }
@@ -569,9 +570,9 @@
     margin-top: 2em;
     margin-bottom: $spacing-unit;
     font-size: 60px;
-    font-weight: 700;
+    // font-weight: 700;
     // text-align:center;
-    // font-family: "Source Serif Pro", serif;
+    font-family: "Source Serif Pro", serif;
     // font-style: oblique;
   }
 
@@ -594,26 +595,36 @@
 
   .home-page-heading{
     text-align: center;
-    margin-top: $spacing-unit * 2; 
-  }
-
-  .highlight-heading {
-    text-align: center;
     margin-top: $spacing-unit * 2;
     margin-bottom: 0px;
     font-family: "Source Serif Pro", serif;
-    font-size: 20px / 1.5;
+  }
+
+  .highlight-heading {
+    // font-family: "Comfortaa", serif;
+    // font-size: 20px / 1.5;
     background: rgba(255, 230, 0, 0.5);
     padding: 3px 5px;
     margin: -3px -5px;
-    line-height: 1.7;
+    // line-height: 1.7;
+    border-radius: 5px;
+    display:inline;
+    background-image: linear-gradient(white, white 0.6em, transparent 0.6em, transparent), linear-gradient(to top, white, white 0.58em, transparent 0.58em, transparent), linear-gradient(to right, $grey-color-light, $grey-color-light 100%, transparent 100%, transparent);
+
+  }
+
+  .home-highlight-heading {
+    // font-family: "Source Serif Pro", serif;
+    // font-size: 20px / 1.5;
+    background: rgba(255, 230, 0, 0.5);
+    padding: 3px 5px;
+    margin: -3px -5px;
+    // line-height: 1.7;
     border-radius: 5px;
     display:inline;
     background-image: linear-gradient(white, white 0.6em, transparent 0.6em, transparent), linear-gradient(to top, white, white 0.58em, transparent 0.58em, transparent), linear-gradient(to right, #ADF10E, #ADF10E 100%, transparent 100%, transparent);
 
   }
-
-
 
 
 
