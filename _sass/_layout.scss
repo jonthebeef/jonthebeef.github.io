@@ -537,12 +537,19 @@
         // font-weight: 700;
         margin-bottom: $spacing-unit;
         padding: 40px;
-            border-radius: 20px;
+        border-radius: 20px;
+        @include media-query($on-palm) {
+          padding: 20px;
+          font-size: 30px;
+          line-height: 40px;
+          }
 
       }
 
       h2 {
-
+        @include media-query($on-palm) {
+          font-size: 1.2em;
+          }
       }
 
       h3 {
@@ -590,6 +597,10 @@
     // text-align:center;
     font-family: "Source Serif Pro", serif;
     // font-style: oblique;
+    @include media-query($on-palm) {
+      margin-top: 1.5em;
+      font-size: 50px;
+      }
   }
 
   .rss-subscribe {
