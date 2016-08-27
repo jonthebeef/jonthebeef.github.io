@@ -484,6 +484,13 @@
       font-family: "Source Serif Pro", serif;
       font-weight: 400;
       border: 1px white solid;
+      @include media-query($on-palm) {
+        margin-bottom: $spacing-unit;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+        }
 
       &:hover {
         text-decoration: none;
@@ -499,11 +506,20 @@
     transform: translateY(-50%);
     a:nth-child(1) {background-image: url("/images/discovery2.gif"); background-position: center; height: auto;}
     a:nth-child(2) {background-image: url("/images/design.gif"); background-position: top; height: auto;}
-    a:nth-child(3) {background-image: url("/images/measure.gif"); background-position: center; background-size: cover; background-repeat: no-repeat; height: auto; margin-right: 0px !important;}
+    a:nth-child(3) {background-image: url("/images/measure.gif"); background-position: center; background-size: cover; background-repeat: no-repeat; height: auto; margin-right: 0px;}
+    @include media-query($on-palm) {
+      a:nth-child(1) {margin-right: auto;}
+      a:nth-child(2) {margin-right: auto;}
+      a:nth-child(3) {margin-right: auto;}
+      }
 }
 
   .myprocess-content {
     height: 100vh;
+    @include media-query($on-palm) {
+      margin-top: 180px;
+      margin-bottom: 180px;
+      }
   }
 
   // Process page styles
