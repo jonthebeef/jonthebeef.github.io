@@ -13,7 +13,7 @@ In 2015, I founded a [startup](http://knockerapp.com), and joined the [Ignite Ac
 
 So, I turned my hand to writing. Each week, I would send an overview and commentary of where we had got to, along with links to things that I found both interesting and relevant to the business, and tried to hang it all together with a candid writing style. And because of my previous music blogging experience, I also used to pull together a playlist of songs which in some way related to the business mood.
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajonthebeef%3Aplaylist%3A77RcbS6wkwl5W2h3RmUOL6" style="padding-bottom: 30px; height: 300px;" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajonthebeef%3Aplaylist%3A77RcbS6wkwl5W2h3RmUOL6" style="padd	ing-bottom: 30px; height: 300px;" frameborder="0" allowtransparency="true"></iframe>
 
 It worked. Of all the things we achieved, our email updates are often held up as one of the best communications. And so now, I’m starting them again. Sign up to my mailing list, and every fortnight, I’ll send a digest which contains links to things I’ve found interesting, my thinking at that point of time, and maybe some music.
 
