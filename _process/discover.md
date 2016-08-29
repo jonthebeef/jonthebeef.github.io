@@ -2,6 +2,7 @@
 layout: process
 title: Discover
 date: 2016-07-20 11:58:31 +0100
+navigation_weight: 2
 ---
 
 # Before you design the solution, you have to understand the challenge.

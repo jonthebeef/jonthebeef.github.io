@@ -6,9 +6,7 @@ date: 2016-07-21 11:58:31 +0100
 
 # “The Product is the Service is the Marketing” - *Russell Davies*
 
-## Using insights delivered through the discovery phase, I work with teams to create innovative solutions using the defined product strategy.
-
-By proxy, I’m familiar with Lean UX design principles, meaning I like to quickly bring ideas to life through design and prototyping, and get them into user hands iteratively to establish further stages.
+## Using insights delivered through the [discovery phase](/process/discover.md), I work with teams to create innovative solutions using the defined product strategy. By proxy, I’m familiar with Lean UX design principles, meaning I like to quickly bring ideas to life through design and prototyping, and get them into user hands iteratively to establish further stages.
 
 <div class="process-page-items">
 

@@ -499,6 +499,28 @@
       }
   }
 
+  .tldr {
+    float: right;
+    font-family: $base-font-family;
+    padding: $spacing-unit 0;
+    color: $grey-color-dark;
+
+    a {
+      padding: $spacing-unit / 1.5;
+      font-weight: 700;
+      color: white;
+      background-color: $blue-color;
+      border-radius: 10px;
+      margin-left: $spacing-unit / 2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+      background: $blue-color-dark;
+    }
+  }
+
   // Process page styles
   .process-content {
 
@@ -507,11 +529,11 @@
         font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 700;
         line-height: 50px;
-        background-color: $pink-color;
-        color: white;
-        margin-bottom: $spacing-unit;
+        /* background-color: #d62a9d; */
+        margin-bottom: 30px;
         padding: 40px;
         border-radius: 20px;
+        border:4px $pink-color dotted;
         @include media-query($on-palm) {
           padding: 20px;
           font-size: 30px;
@@ -520,6 +542,8 @@
       }
 
       h2 {
+        margin-top: $spacing-unit * 2;
+        margin-bottom: $spacing-unit * 2;
         @include media-query($on-palm) {
           font-size: 1.2em;
           }
@@ -613,7 +637,7 @@
 
   h1.page-title {
     margin-top: 2em;
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 2;
     font-size: 60px;
     font-family: "Source Serif Pro", serif;
     @include media-query($on-palm) {
