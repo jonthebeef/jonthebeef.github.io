@@ -606,6 +606,10 @@
     p {
       margin-bottom: 0px;
     }
+
+    h3 {
+      color: $grey-color-dark;
+    }
   }
 
   .process-item-wrapper {
@@ -625,7 +629,7 @@
     background-color:$grey-color-dark;
     color:$grey-color-light;
     padding: $spacing-unit;
-    margin-bottom: $spacing-unit !important;
+    margin-bottom: $spacing-unit * 2 !important;
     clear: both;
 
     h4 {
