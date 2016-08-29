@@ -533,7 +533,7 @@
         margin-bottom: 30px;
         padding: 40px;
         border-radius: 20px;
-        border:4px $pink-color dotted;
+        border:4px $green-color dotted;
         @include media-query($on-palm) {
           padding: 20px;
           font-size: 30px;
@@ -580,7 +580,7 @@
     :nth-child(1) {float:left;}
     :nth-child(2) {float:right;}
     :nth-child(3) {float:left;}
-    :nth-child(4) {float:right;}
+    :nth-child(4) {float:right; margin-bottom: 60px;}
 
     @include media-query($on-palm) {
       :nth-child(1) {float:none;}
