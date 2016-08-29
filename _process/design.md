@@ -6,7 +6,7 @@ date: 2016-07-21 11:58:31 +0100
 
 # “The Product is the Service is the Marketing” - *Russell Davies*
 
-## Using insights delivered through the [discovery phase](/process/discover.md), I work with teams to create innovative solutions using the defined product strategy. By proxy, I’m familiar with Lean UX design principles, meaning I like to quickly bring ideas to life through design and prototyping, and get them into user hands iteratively to establish further stages.
+## Using insights delivered through the [discovery phase](/process/discover.md), I work with teams to create innovative solutions using the defined product strategy. By proxy, I’m familiar with Lean UX design principles, meaning I like to quickly bring ideas to life through design and prototyping, and get them into user hands iteratively to establish further stages. My toolkit? Sketch, Invision and Zeplin.
 
 <div class="process-page-items">
 
@@ -14,7 +14,7 @@ date: 2016-07-21 11:58:31 +0100
     <div class="process-item-wrapper">
       <img src="/images/paper.png" />
       <h3>Paper</h3>
-      <p>I often start with sketching on paper in a restricted time to identify ideas to explore. Another line of stuff.</p>
+      <p>I often start with mindmapping and then sketching on paper in a restricted time to identify ideas to explore.</p>
     </div>
   </div>
 
