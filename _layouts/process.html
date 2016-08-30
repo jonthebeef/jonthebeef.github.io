@@ -4,7 +4,9 @@ layout: default
 <article class="page">
 
   <header class="page-header">
-    <div class="tldr"><span id="tldrlabel">tl;dr --> Need help?</span><a href="/contact.html">Get in touch</a></div>
+    {% if page.show_cta %}
+      <div class="tldr"><span id="tldrlabel">tl;dr {{ page.tldr }} --> </span><a href="{{ page.ctaurl }}/">{{ page.cta }}</a></div>
+    {% endif %}
     <h1 class="page-title"><span class="highlight-heading">{{ page.title }}</span></h1>
   </header>
 

@@ -40,15 +40,19 @@
     .menu-icon {
         display: none;
     }
+    a:hover {
+      color: $pink-color;
+    }
+  .page-link {
+      color: $grey-color-dark;
+      text-decoration: none;
+      line-height: $base-line-height;
 
-    .page-link {
-        color: $grey-color-dark;
-        line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
+      // Gaps between nav items, but not on the last one
+      &:not(:last-child) {
+          margin-right: 20px;
+      }
     }
 
     @include media-query($on-palm) {
@@ -74,7 +78,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $pink-color;
                 }
             }
         }
@@ -97,6 +101,7 @@
                 margin-right: 0;
             }
             margin-left: 20px;
+
         }
     }
 }
@@ -188,6 +193,7 @@
 .page-content {
     // padding: $spacing-unit 0;
     font-family: "Source Serif Pro", serif;
+
     @include media-query($on-palm) {
       font-size: 0.9em;
       }
@@ -245,13 +251,6 @@
     font-size: 24px;
     font-weight: 700;
     font-family: $base-font-family;
-    // color: #white;
-    // background-color: $red-color;
-    // padding: 10px;
-    //
-    //   a {
-    //     color: white;
-    //   }
 }
 
 
@@ -598,6 +597,9 @@
       h2 {
         margin-top: $spacing-unit * 2;
         margin-bottom: $spacing-unit * 2;
+        a {
+            color: $pink-color;
+        }
         @include media-query($on-palm) {
           font-size: 1.2em;
           margin: $spacing-unit 0;

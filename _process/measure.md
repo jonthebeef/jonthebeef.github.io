@@ -2,6 +2,10 @@
 layout: process
 title: Measure
 date: 2016-07-22 11:58:31 +0100
+tldr: What should you do next?
+ctaurl: /contact
+cta: Let's talk
+show_cta: true
 ---
 
 # Without understanding how a product is measured, design can be like shouting into an empty room.
