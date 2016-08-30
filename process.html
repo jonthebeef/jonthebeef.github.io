@@ -5,9 +5,9 @@ navigation_weight: 2
 ---
 <div class="myprocess-content">
     <div class="myprocesses">
-{% assign process = site.process | sort: 'date' %}
-{% for process in process limit:3  %}
-    <a class="myprocess" href="{{ process.url | prepend: site.baseurl }}"><h2>{{ process.title }}</h2></a>
-{% endfor %}
-</div>
+    {% assign process = site.process | sort: 'date' %}
+    {% for process in process limit:3  %}
+      <a class="myprocess" href="{{ process.url | prepend: site.baseurl }}"><h2>{{ process.title }}</h2></a>
+    {% endfor %}
   </div>
+</div>

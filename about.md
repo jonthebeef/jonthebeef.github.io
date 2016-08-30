@@ -10,7 +10,3 @@ I help companies design great digital products. In the last 12 years, I’ve ran
 I’m a thinker, designer, and doer. I love to uncover big problems, and apply design thinking to create amazing solutions, based on what’s both possible now and in the future.
 
 I have a passion for designing digital products which focus on core simplicity, and a belief in the power of storytelling. I understand how this translates into user and customer experiences.
-
-<!-- You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll) -->

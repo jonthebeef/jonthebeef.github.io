@@ -29,6 +29,7 @@ $pink-color:       #d62a9d;
 $blue-color:       #3498db;
 $green-color:      #ADF10E;
 $blue-color-dark:  darken($blue-color, 8%);
+$blue-color-darker:  darken($blue-color, 16%);
 
 // Width of the content area
 $content-width:    1000px;
