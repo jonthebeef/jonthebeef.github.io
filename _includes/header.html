@@ -11,15 +11,6 @@
         </svg>
       </a>
 
-      <!-- <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} </a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav> -->
-
     <div class="trigger">
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
       {% for p in navigation_pages %}
@@ -28,19 +19,7 @@
         {% endif %}
       {% endfor %}
     </div>
-
-
-    <!-- {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-    {% for p in navigation_pages %}
-      {% if p.navigation_weight %}
-        <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-          {{ p.title }}
-        </a>
-      {% endif %}
-    {% endfor %} -->
-
   </nav>
-
-  </div>
+</div>
 
 </header>
