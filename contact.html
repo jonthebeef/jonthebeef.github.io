@@ -8,11 +8,12 @@ title: Contact
       <input type="text" name="name" placeholder="Your name">
       <input type="text" name="company" placeholder="Company name">
       <input type="email" name="_replyto" placeholder="Your email">
-      <input type="tel" name="_replyto" placeholder="Mobile number">
+      <input type="tel" name="telephone" placeholder="Mobile number">
       <input type="hidden" name="_subject" value="Website contact" />
       <textarea name="message" placeholder="Your message"></textarea>
       <input type="text" name="_gotcha" style="display:none" /><br />
       <input id="form_submit" type="submit" value="Send">
+      <input type="hidden" name="_next" value="/thanks.html" />
   </form>
   <script>
       var contactform =  document.getElementById('contactform');
