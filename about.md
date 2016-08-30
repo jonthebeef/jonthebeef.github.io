@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+navigation_weight: 1
 ---
 
 I help companies design great digital products. In the last 12 years, I’ve ran an award winning digital agency, worked with some leading international brands, and released acclaimed products of my own too.
