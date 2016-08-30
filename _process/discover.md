@@ -2,8 +2,8 @@
 layout: process
 title: Discover
 date: 2016-07-20 11:58:31 +0100
-tldr: Need a strategy? 
-ctaurl: /contact
+tldr: Need a strategy?
+ctaurl: "/contact"
 cta: I can help
 show_cta: true
 ---
