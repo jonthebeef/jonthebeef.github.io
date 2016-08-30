@@ -395,39 +395,37 @@
   color: white;
   background-size: cover;
   font-family: "Source Serif Pro", serif;
-
   text-align: center;
 
   h1 {
     font-family: "Comfortaa", sans-serif;
-    font-size: 19vw;
+    font-size: 180px;
     color: white;
     line-height: 1.1;
-    // margin-bottom: 3%;
-    // margin-top:60px;
     text-align: center;
-    // @include media-query($on-laptop) {
-    //     padding-bottom: 2%;
-    //     font-size: 400%;
-    //     padding-top:60%;
-    //     }
+    @include media-query($on-palm) {
+        padding-bottom: 3%;
+        font-size: 100px;
+        margin-top: $spacing-unit;
+        }
     }
 
-    h2 {
-      font-family: "Codystar", sans-serif;
-      font-size: 5vw;
-      color: white;
-      text-align: center;
-      @include media-query($on-laptop) {
-          padding-bottom: 3%;
-          font-size: 9vw;
-          }
-    }
+  h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: $spacing-unit * 2;
+    @include media-query($on-palm) {
+        padding-bottom: 3%;
+        font-size: 15px;
+        margin-top: $spacing-unit;
+        }
+  }
 }
 
 .homeview-tldr {
   font-family: $base-font-family;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit 0 0 0;
   color: white;
   font-weight: 700;
   text-shadow: 1px 1px $blue-color-darker;
@@ -448,6 +446,13 @@
 
     @include media-query($on-palm) {
       font-size: 0.9em;
+      margin-left: 0;
+      }
+  }
+
+  .hometldrlabel {
+    @include media-query($on-palm) {
+      display: none;
       }
   }
 
@@ -459,7 +464,7 @@
 
 .homeview-content {
     position: relative;
-    top: 50%;
+    top: 52%;
     transform: translateY(-50%);
     @include media-query($on-laptop) {
         padding-bottom: 20px;
@@ -848,6 +853,7 @@
     textarea {
       border: 0;
       width: 660px;
+      resize: none;
       height: 200px;
       margin-right: $spacing-unit;
       margin-bottom: $spacing-unit;
