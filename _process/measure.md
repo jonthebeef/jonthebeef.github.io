@@ -3,7 +3,7 @@ layout: process
 title: Measure
 date: 2016-07-22 11:58:31 +0100
 tldr: What should you do next?
-ctaurl: /contact
+ctaurl: "/contact"
 cta: Let's talk
 show_cta: true
 ---
