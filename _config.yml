@@ -32,7 +32,11 @@ google_analytics: UA—82044029-1
 gems:
   - jemoji
 
+gems:
+  - jekyll-seo-tag
 
+gems:
+  - jekyll-sitemap
 
 assets:
   autoprefixer:
