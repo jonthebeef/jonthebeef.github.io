@@ -39,6 +39,9 @@
     width: 100%;
     margin-left: -40px;
     text-align: right;
+    @include media-query($on-palm) {
+      width: auto;
+    }
 
     .menu-icon {
         display: none;
