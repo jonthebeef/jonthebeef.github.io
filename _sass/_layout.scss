@@ -771,91 +771,25 @@
   #contactform{
     overflow: hidden;
   }
-  //
-  // #form_name {
-  //   width: 300px;
-  //   border: 0;
-  //   margin-right: $spacing-unit;
-  //   margin-bottom: $spacing-unit;
-  //   background-color: #F5F5F5;
-  //   border-bottom: 2px solid $grey-color-light;
-  //   border-radius: 8px;
-  //   padding: $spacing-unit / 2;
-  //   font-family: $base-font-family;
-  //   font-size:$base-font-size;
-  //   color: $grey-color-dark;
-  //   :hover {
-  //     background-color: $pink-color;
-  //   }
-  //
-  // }
-  //
-  // #form_email {
-  //   width: 300px;
-  //   border: 0;
-  //   margin-right: $spacing-unit;
-  //   margin-bottom: $spacing-unit;
-  //   background-color: #F5F5F5;
-  //   border-bottom: 2px solid $grey-color-light;
-  //   border-radius: 8px;
-  //   padding: $spacing-unit / 2;
-  //   font-family: $base-font-family;
-  //   font-size:$base-font-size;
-  // }
-  //
-  // #form_message {
-  //   border: 0;
-  //   width: 660px;
-  //   height: 200px;
-  //   margin-right: $spacing-unit;
-  //   margin-bottom: $spacing-unit;
-  //   background-color: #F5F5F5;
-  //   border-bottom: 2px solid $grey-color-light;
-  //   border-radius: 8px;
-  //   padding: $spacing-unit / 2;
-  //   font-family: $base-font-family;
-  //   font-size:$base-font-size;
-  //   @include media-query($on-palm) {
-  //     width: 300px;
-  //     }
-  // }
-  //
-  // #form_submit {
-  //   clear: both;
-  //   border: 0;
-  //   cursor: pointer;
-  //   padding: $spacing-unit / 2;
-  //   font-weight: 700;
-  //   color: white;
-  //   width: 100px;
-  //   background-color: $blue-color;
-  //   border-radius: 10px;
-  //   text-decoration: none;
-  //   font-family: $base-font-family;
-  //   font-size:$base-font-size;
-  // }
-  //
-  // #contactform {
-  //   margin-top: $spacing-unit * 2;
-  //   margin-bottom: $spacing-unit * 2;
-  // }
 
+  input {
+    width: 300px;
+    border: 0;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid $grey-color-light;
+    border-radius: 8px;
+    padding: $spacing-unit / 2;
+    font-family: $base-font-family;
+    font-size:$base-font-size;
+    color: $grey-color-dark;
 
-    input {
-      width: 300px;
-      border: 0;
-      margin-right: $spacing-unit;
-      margin-bottom: $spacing-unit;
-      background-color: #F5F5F5;
-      border-bottom: 2px solid $grey-color-light;
-      border-radius: 8px;
-      padding: $spacing-unit / 2;
-      font-family: $base-font-family;
-      font-size:$base-font-size;
-      color: $grey-color-dark;
+  }
 
-    }
-
+  input, textarea:focus {
+    outline: 0;
+  }
     // input, textarea:focus {background-color: $pink-color;}
 
     textarea {
@@ -871,6 +805,11 @@
       padding: $spacing-unit / 2;
       font-family: $base-font-family;
       font-size:$base-font-size;
+
+      :focus {
+        outline: 0;
+      }
+
       @include media-query($on-palm) {
         width: 300px;
         }
@@ -916,4 +855,75 @@
     width:30px;
     height:30px;
     padding-bottom: 3px;
+}
+
+#mailchimp {
+  // height: 120px;
+  background-color: $grey-color-light;
+  width: 100%;
+  padding: $spacing-unit 0;
+
+  input {
+    margin: 0;
+  }
+
+  @include media-query($on-palm) {
+    display: none;
+    }
+}
+
+
+
+
+#blurb {
+  margin-bottom: 30px;
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+}
+
+#mc_embed_signup {
+  // position: relative;
+  // top: 50%;
+  // transform: translateY(-50%);
+  margin: 0 auto;
+  width:482px;
+
+  form {
+    display: block;
+    position: relative;
+  }
+
+  :focus {
+    outline: 0;
+  }
+
+
+}
+
+
+
+.button {
+  clear: both;
+  border: 0;
+  cursor: pointer;
+  padding: $spacing-unit / 2;
+  margin-left: $spacing-unit !important;
+  font-weight: 700;
+  color: white;
+  width: auto;
+  background-color: $pink-color;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: $base-font-family;
+  font-size:$base-font-size;
+
+}
+
+.button:hover {
+  text-decoration: none;
+  background: $grey-color-dark;
+}
+
+.button:focus {
+  outline: 0;
 }
