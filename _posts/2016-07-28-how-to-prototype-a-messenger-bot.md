@@ -241,3 +241,5 @@ And that’s it, you’ve now seen how easy it is to prototype an instant messag
 Apple are due to release iOS 10 in coming months, and with that, brings new messaging functionality. Expect to see the UI elements appear in kits shortly afterwards, and then, prototype your next sticker app or ride hailing integration in the same way. Also, here’s a UI Kit for [WeChat](http://www.sketchappsources.com/free-source/attachment-1933-wechat-ui-kit-sketch-freebie-resource-img1.html), and here’s one that could [help you design your own messaging app](https://layer.com/messaging-design-kit).
 
 Go and make stuff. And let me know how you get on.
+
+PS - Here's an [amazing roundup of articles about Conversational UI](https://uxdesign.cc/10-links-to-get-started-with-conversational-ui-and-chatbots-3c0920ef4723#.ck576vw56). Fill your boots. 
