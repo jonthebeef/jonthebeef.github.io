@@ -3,7 +3,7 @@ layout: process
 title: Design
 date: 2016-07-21 11:58:31 +0100
 tldr: Need some design help?
-ctaurl: {{site.baseurl}}/contact
+ctaurl: "/contact"
 cta: Get in touch
 show_cta: true
 ---
