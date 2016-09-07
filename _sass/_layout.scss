@@ -897,6 +897,8 @@
   // transform: translateY(-50%);
   margin: 0 auto;
   width:482px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 
   form {
     display: block;
@@ -926,14 +928,20 @@
   text-decoration: none;
   font-family: $base-font-family;
   font-size:$base-font-size;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 
 }
 
 .button:hover {
   text-decoration: none;
   background: $grey-color-dark;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 .button:focus {
   outline: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
