@@ -515,6 +515,13 @@
         display: block;
 
         }
+        @include media-query($on-tablet) {
+          margin-bottom: $spacing-unit;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+
+          }
 
       &:hover {
         text-decoration: none;
@@ -536,6 +543,11 @@
       a:nth-child(2) {margin-right: auto;}
       a:nth-child(3) {margin-right: auto;}
       }
+      @include media-query($on-tablet) {
+        a:nth-child(1) {margin-right: auto;}
+        a:nth-child(2) {margin-right: auto;}
+        a:nth-child(3) {margin-right: auto;}
+        }
 }
 
   .myprocess-content {
@@ -544,7 +556,12 @@
       margin-top: 180px;
       margin-bottom: 180px;
       }
+    @include media-query($on-tablet) {
+      margin-top: 200px;
+      margin-bottom: 200px;
+      }
   }
+  
 
   .tldr {
     float: right;
@@ -645,6 +662,13 @@
     :nth-child(2) {float:right;}
     :nth-child(3) {float:left;}
     :nth-child(4) {float:right; margin-bottom: 60px;}
+
+    @include media-query($on-palm) {
+      :nth-child(1) {float:none;}
+      :nth-child(2) {float:none;}
+      :nth-child(3) {float:none;}
+      :nth-child(4) {float:none;}
+      }
 
     @include media-query($on-palm) {
       :nth-child(1) {float:none;}
@@ -928,7 +952,7 @@
   font-size:$base-font-size;
   -webkit-appearance: none;
    -moz-appearance: none;
-   appearance: none;  
+   appearance: none;
 
 }
 

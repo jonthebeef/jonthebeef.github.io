@@ -33,7 +33,7 @@ $blue-color-darker:  darken($blue-color, 16%);
 
 // Width of the content area
 $content-width:    1000px;
-
+$on-tablet:        768px; 
 $on-palm:          600px;
 $on-laptop:        800px;
 $on-hand:          400px;
