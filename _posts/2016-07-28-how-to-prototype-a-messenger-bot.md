@@ -42,7 +42,7 @@ We’re going to focus on animating assets in Keynote, to demonstrate what a bot
 
 #### Tutorial Assets
 
-- [Project Assets](https://www.dropbox.com/sh/kd6gttcgx1xgoq1/AACwFENGP9l17GebdbrRMbaOa?dl=0)
+- [Project Assets](http://bit.ly/2c5wOGZ)
 
 I’ve also included the completed Sketch file you can play with as you please.
 
@@ -242,4 +242,4 @@ Apple are due to release iOS 10 in coming months, and with that, brings new mess
 
 Go and make stuff. And let me know how you get on.
 
-PS - Here's an [amazing roundup of articles about Conversational UI](https://uxdesign.cc/10-links-to-get-started-with-conversational-ui-and-chatbots-3c0920ef4723#.ck576vw56). Fill your boots. 
+PS - Here's an [amazing roundup of articles about Conversational UI](https://uxdesign.cc/10-links-to-get-started-with-conversational-ui-and-chatbots-3c0920ef4723#.ck576vw56). Fill your boots.
