@@ -399,10 +399,10 @@
 
 .homeview {
   // background-image: url("/images/kendrickbump2.gif");
-  background-color: $blue-color;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: #F5F5F5;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-position: center;
   height: 100vh;
   color: white;
   background-size: cover;
@@ -412,7 +412,7 @@
   h1 {
     font-family: "Comfortaa", sans-serif;
     font-size: 180px;
-    color: white;
+    color: $grey-color-dark;
     line-height: 1.1;
     text-align: center;
     @include media-query($on-palm) {
@@ -438,9 +438,9 @@
 .homeview-tldr {
   font-family: $base-font-family;
   padding: $spacing-unit 0 0 0;
-  color: white;
+  color: $grey-color-dark;
   font-weight: 700;
-  text-shadow: 1px 1px $blue-color-darker;
+  // text-shadow: 1px 1px $grey-color-light;
   margin-top: 10px;
   @include media-query($on-palm) {
     padding: 18px 0;
@@ -449,8 +449,10 @@
   a {
     padding: $spacing-unit / 1.5;
     font-weight: 700;
+
+
+    background: $blue-color;
     color: white;
-    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     margin-left: $spacing-unit / 2;
     text-decoration: none;
@@ -470,7 +472,8 @@
 
   a:hover {
     text-decoration: none;
-    background: $blue-color-darker;
+    color: white;
+    background-color: $blue-color-darker;
   }
 }
 
@@ -483,7 +486,8 @@
         font-size: 100%;
         }
     h2 {
-      text-shadow: 1px 1px #1d6ca1;
+      color: $grey-color-dark;
+      // text-shadow: 1px 1px #1d6ca1;
     }
 }
 
@@ -971,4 +975,25 @@
 
 .button:focus {
   outline: 0;
+}
+
+.share-page {
+    text-align: center;
+    background: $grey-color-light;
+    color: $grey-color-dark;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        color: #fff;
+        margin-left: 10px;
+        color: $grey-color-dark;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+            text-decoration: none;
+        }
+    }
 }
